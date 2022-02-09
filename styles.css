@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #212F3D;
+}
+
+header{
+    border: 1px solid red;
+}
