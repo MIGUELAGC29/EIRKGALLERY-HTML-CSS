@@ -2,6 +2,20 @@
     --gris-background: #2c2d2e
 }
 
+/* FUENTE */
+@font-face {
+    font-family: "Bebas";
+    src: url(fonts/BebasNeue-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cormorant";
+    src: url(fonts/CormorantGaramond-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 * {
@@ -24,16 +38,17 @@ header{
 
 .content-header{
     color: white;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(5px);
     height: 100%;
 }
 
 .content-header p{
     display: block;
     float: left;
-    margin-left: 80px;
-    margin-top: 100px;
+    margin-left: 200px;
+    margin-top: 60px;
     font-size: 80px;
+    font-family: 'Bebas';
 }
 
 .content-header ul{
@@ -49,6 +64,7 @@ header{
     margin-right: 80px;
     margin-top: 50px;
     font-size: 30px;
+    font-family: 'Bebas';
 
 }
 
@@ -57,7 +73,54 @@ header{
     text-decoration: none;
 }
 
+.header-gallery p{
+    font-family: 'Bebas';
+    color: white;
+    font-size: 50px;
+    margin-left: 200px;
+    margin-top: 150px;
+}
 
+.slider{
+    width: 1500px;
+    height: 200px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate linear;
+
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+}
+
+@keyframes cambio{
+    0% { margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
 
 
 
