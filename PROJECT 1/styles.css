@@ -148,6 +148,17 @@ header{
 
 
 
+footer{
+    width: 100%;
+    color: white;
+    height: 150px;
+    background-color: black;
+}
+
+.development-with{
+    float: right;
+    margin-right: 200px;
+}
 
 
 
