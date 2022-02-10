@@ -38,14 +38,14 @@ header{
 
 .content-header{
     color: white;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
     height: 100%;
 }
 
 .content-header p{
     display: block;
     float: left;
-    margin-left: 200px;
+    margin-left: 5%;
     margin-top: 60px;
     font-size: 80px;
     font-family: 'Bebas';
@@ -77,16 +77,16 @@ header{
     font-family: 'Bebas';
     color: white;
     font-size: 50px;
-    margin-left: 200px;
+    margin-left: 5%;
     margin-top: 150px;
 }
 
 .slider{
-    width: 1500px;
+    width: 85%;
     height: 200px;
     margin: auto;
     overflow: hidden;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-top: 50px;
 }
 
