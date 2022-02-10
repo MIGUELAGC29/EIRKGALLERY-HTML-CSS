@@ -122,6 +122,32 @@ header{
     100% {margin-left: -300%;}
 }
 
+.article-card{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: center;
+
+}
+
+.card{
+    height: 200px;
+    width: 30%;
+    margin: 20px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+
+}
+
+.card img{
+    width: 100%;
+}
+
+
+
 
 
 
