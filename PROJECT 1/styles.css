@@ -30,6 +30,7 @@ body {
 header{
     background-image: url("./images/HEADER.png");
     background-repeat: no-repeat;
+    background-size: 100%;
     width: 100%;
     height: 400px;
     box-shadow: inset 0px -50px 50px 50px var(--gris-background);
@@ -93,7 +94,7 @@ header{
 
 .slider{
     width: 85%;
-    height: 500px;
+    height: 100%;
     margin: auto;
     overflow: hidden;
     margin-bottom: 50px;
@@ -162,6 +163,7 @@ header{
     transition: all 300ms;
     position: relative;
     border-radius: 10px;
+    cursor: pointer;
     
     
 }
@@ -186,21 +188,24 @@ footer{
     float: right;
     margin-right: 0px;
     margin-top: 0px;
+    border: 3px solid green;
+    width: 50%;
+    height: 100%;
 }
 
 
 .development-with div img{
     width: 10%;
     height: 10%;
-    margin-right: 30px;
-    margin-top: 15px;
+    margin-right: 60px;
+    margin-top: 0;
     float: right;
 
 }
 
 .development-with p{
     font-family: 'Bebas';
-    margin-right: 7%;
+    margin-right: 10.5%;
     font-size: 20px;
     margin-top: 15px;
 
@@ -212,6 +217,7 @@ footer{
     font-size: 20px;
     margin-top: 86px;
     margin-left: 2%;
+    border: 3px solid red;
 
 }
 
@@ -241,3 +247,97 @@ footer{
 .pagination a:hover{
     text-shadow: 12px 12px 1px black;
 }
+
+
+@media (max-width:2022px){
+    .development-with div img{
+        width: 15%;
+        height: 15%;
+        margin-right: 60px;
+        margin-top: 0;
+        float: right;
+    
+    }
+
+    .development-with p{
+        font-family: 'Bebas';
+        margin-right: 12%;
+        font-size: 30px;
+        margin-top: 15px;
+    
+    }
+
+    .development-by{
+        float:left;
+        font-family: 'Bebas';
+        font-size: 30px;
+        margin-top: 86px;
+        margin-left: 2%;
+        border: 3px solid red;
+    
+    }
+
+}
+
+@media (max-width:1350px){
+    .development-with div img{
+        width: 20%;
+        height: 20%;
+        margin-right: 60px;
+        margin-top: 0;
+        float: right;
+    
+    }
+
+    .development-with p {
+        font-family: 'Bebas';
+        margin-right: 15%;
+        font-size: 30px;
+        margin-top: 15px;
+    }
+}
+
+
+@media (max-width:1334px){
+    .article-card {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1198px){
+    .card {
+        width: 40%;
+        margin: 20px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 778px){
+    .card {
+        width: 65%;
+        margin: 20px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    footer{
+        display: inline-block;
+        width: 100%;
+        color: white;
+        height: 139px;
+        background-color: black;
+    }
+
+    .pagination a{
+        width: 18px;
+        height: 18px;
+    }
+
+
+}
+
