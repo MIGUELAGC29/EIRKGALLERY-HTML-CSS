@@ -149,9 +149,11 @@ header{
     margin: 20px;
     margin-bottom: 40px;
     margin-top: 20px;
-    box-shadow: 10px 20px 20px black;
+    
+    
 
 }
+
 
 .card img{
     width: 100%;
@@ -160,10 +162,14 @@ header{
     transition: all 300ms;
     position: relative;
     border-radius: 10px;
+    
+    
 }
 
 .card img:hover{
     transform: scale(1.14);
+    opacity: .3;
+    
 }
 
 
@@ -209,4 +215,29 @@ footer{
 
 }
 
+.pagination{
+    background-color: var(--gris-background);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
+
+.pagination a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Bebas';
+    font-size: 40px;
+    margin: 20px;
+    transition: all 300ms;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.pagination a:hover{
+    text-shadow: 12px 12px 1px black;
+}
