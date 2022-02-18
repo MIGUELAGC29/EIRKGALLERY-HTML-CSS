@@ -43,6 +43,7 @@ header{
     backdrop-filter: blur(2px);
     height: 100%;
 
+
 }
 
 .content-header p{
@@ -342,3 +343,71 @@ footer{
 
 }
 
+
+@media (max-width: 890px){
+    .content-header ul {
+        display: block;
+        float: right;
+        margin-right: -5px;
+    }
+
+    .header-gallery p {
+        font-family: 'Bebas';
+        color: white;
+        font-size: 50px;
+        margin-left: 5%;
+        margin-top: 0px;
+        text-shadow: 10px 10px 10px black;
+    }
+
+    header {
+        background-image: url(./images/HEADER.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 334px;
+        box-shadow: inset 0px -50px 50px 50px var(--gris-background);
+    }
+}
+
+
+@media (max-width: 878px){
+    .content-header p {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0;
+        
+    }
+
+    .content-header ul{
+        position: absolute;
+        /*margin-top: 283px;
+        margin-left: 210px;*/
+
+        margin-top: 32%;
+        margin-left: 24%;
+    }
+
+    .content-header ul li{
+        margin-left: 70px;
+        margin-top: 0;
+        margin-right: 0;
+       
+      
+    }
+} 
+
+
+@media (max-width: 774px) {
+
+    .content-header ul{
+        margin-top: 32%;
+        margin-left: 21%;
+    }
+
+    .content-header{
+        padding: 0px;
+    }
+    
+}
